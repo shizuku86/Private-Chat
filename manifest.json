@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"静空"
+		]
+	},
+	"header": {
+		"name": "Private Chat v.2",
+		"description": "スコアボードを使って専用チャットを作成することができます！",
+		"min_engine_version": [
+			1,
+			21,
+			20
+		],
+		"uuid": "c8f46d3e-3e06-46a2-b5bb-78650cb81e04",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "1d48d0de-9230-4b78-8dea-bac6a685c1ff",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.0.0-beta"
+		}
+	]
+}
